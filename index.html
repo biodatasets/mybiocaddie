@@ -70,11 +70,11 @@ layout: default
             <div class="side">
                 <div>
                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                    Recent Posts
+                    Recent Data
                 </div>
                 <ul class="content-ul" recent>
-                    {% for post in site.posts offset: 0 limit: 10  %}
-                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% for dataset in site.metadata offset: 0 limit: 10  %}
+                        <li><a href="{{ dataset.url }}">{{ dataset.title }}</a></li>
                     {% endfor %}
                 </ul>
             </div>
@@ -83,7 +83,7 @@ layout: default
             <div class="side ">
                 <div>
                     <i class="fa fa-th-list"></i>
-                    Categories
+                    Categories!
                 </div>
                 <ul class="content-ul" cate>
                     {% for category in site.categories order:ascending %}
