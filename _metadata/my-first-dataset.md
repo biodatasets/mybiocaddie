@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: dataset
 title:  "My DataSet1"
 date:   2015-05-20
-categories: JavaScript
+categories: Exposome Phenotype Genotype
 category: foo
-tags: JavaScript 作用域 慕课网 ife
-excerpt: JavaScript 作用域和作用域链学习笔记。
+tags: mosquitoes microcephaly
+index: biocaddie
 ---
 
 * content
@@ -14,4 +14,5 @@ excerpt: JavaScript 作用域和作用域链学习笔记。
 ## This is my first data!
 
 Hello world
+
 
