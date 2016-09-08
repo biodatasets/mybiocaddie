@@ -14,7 +14,6 @@
      */
     var demoContent = [{
         demo_link: 'http://gaohaoyang.github.io/test/headerTransition/',
-        img_link: 'https://ooo.0o0.ooo/2016/06/20/5768c1597d1fe.png',
         code_link: 'https://github.com/Gaohaoyang/test/tree/master/headerTransition',
         title: 'Header Transition 渐变动画',
         core_tech: 'jQuery BootStrap CSS3',
