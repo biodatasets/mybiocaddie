@@ -42,6 +42,8 @@ kramdown:
 # port
 # port: 1234
 
+biocaddie_categories: [Phenotype, Genotype, TestMe]
+
 # url
 category_dir: category/
 tag_dir: tag/

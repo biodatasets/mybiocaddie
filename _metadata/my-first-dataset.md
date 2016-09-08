@@ -2,7 +2,7 @@
 layout: dataset
 title:  "My DataSet1"
 date:   2015-05-20
-categories: Exposome Phenotype Genotype
+categories: Exposome Phenotype Genotype TestMe
 category: foo
 tags: mosquitoes microcephaly
 index: biocaddie
