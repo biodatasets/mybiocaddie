@@ -1,14 +1,11 @@
 # My BioCaddie
 
-Put your data here
+Describe your data here
 
-Site adapted from:
+To see instructions, go to: https://biodatasets.github.io/mybiocaddie/
 
-Adapted from: https://github.com/Gaohaoyang/gaohaoyang.github.io/*
+(remember the trailing slash)
 
-Customize:
+Jekyll template adapted from: https://github.com/Gaohaoyang/gaohaoyang.github.io/*
 
- * Fork this repo
- * add and remove entries in [_metadata](_metadata)
- * `git commit -m 'my fixes' -a`
- * `git push origin gh-pages`
+
