@@ -4,8 +4,13 @@ layout: default
 
 <div class="page clearfix" index>
     <div class="left">
-        <h1>My Datasets</h1>
+      <h1>My Datasets</h1>
+      <p>
+        This is where all of my data is. Enjoy!
+      </p>
         <hr>
+        {% assign newcars = site.metadata | where: "category", "new" %}
+        
         <ul>
             {% for post in site.metadata %}
               <li>

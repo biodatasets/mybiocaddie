@@ -2,9 +2,7 @@
 layout: dataset
 title:  "My DataSet2"
 date:   2015-05-20
-categories: Genome Human
-category: foo
-tags: exome
+categories: Exome Genome Human Analysis
 index: biocaddie
 ---
 

@@ -42,7 +42,7 @@ kramdown:
 # port
 # port: 1234
 
-biocaddie_categories: [Phenotype, Genotype, TestMe]
+biocaddie_categories: [Phenotype, Genotype, Exposome]
 
 # url
 category_dir: category/
