@@ -79,7 +79,7 @@ layout: default
                 </div>
                 <ul class="content-ul" recent>
                     {% for dataset in site.metadata offset: 0 limit: 10  %}
-                        <li><a href="{{ dataset.url }}">{{ dataset.title }}</a></li>
+                        <li><a href="{{ site.baseurl}}{{ dataset.url }}">{{ dataset.title }}</a></li>
                     {% endfor %}
                 </ul>
             </div>
