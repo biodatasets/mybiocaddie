@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/biodatabases/mybiocaddie.svg?branch=master)](https://travis-ci.org/biodatabases/mybiocaddie)
+
 # My BioCaddie
 
 Describe your data here
