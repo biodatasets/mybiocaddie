@@ -79,12 +79,18 @@ layout: default
                     Content
                 </div>
                 <ul id="content-side" class="content-ul">
-                    <li><a href="#similar_posts">Similar Posts</a></li>
+                  <li>Metadata</li>
+                  <ul>
+                    {% for taxon in page.taxa %}
+                    <li>Taxon: <a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id={{taxon | remove: "NCBITaxon:" }}">{{taxon}}</a></li>
+                    {% endfor %}
+                    {% for pageurl in page.page %}
+                    <li>Page: <a href="{{ pageurl }}"</a>{{ pageurl }}</li>
+                    {% endfor %}
+                  </ul>
                     <li><a href="#comments">Comments</a></li>
                 </ul>
             </div>
-            <!-- 其他div框放到这里 -->
-            <!-- <div class="side">bbbb</div> -->
         </div>
     </div>
 </div>
