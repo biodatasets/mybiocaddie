@@ -30,9 +30,4 @@ script: make test
 #after_success:
 #  coveralls
 
-# whitelist
-branches:
-  only:
-    - master
-
 
