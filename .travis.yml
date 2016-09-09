@@ -21,7 +21,7 @@ install:
 before_script:
   - mkdir -p bin
   - export PATH=$PATH:$PWD/bin
-  - wget --no-check-certificate https://raw.githubusercontent.com/cmungall/biocaddie-hub/master/bin/bc-md-processor.py -O bin/bc-md-processor.py
+  - wget --no-check-certificate https://raw.githubusercontent.com/cmungall/biocaddie-gym/master/bin/bc-md-processor.py -O bin/bc-md-processor.py
   - chmod +x bin/*
 
 # command to run tests
