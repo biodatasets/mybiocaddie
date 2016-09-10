@@ -19,23 +19,7 @@ Optionally, GitHub pages can be used to generate a web portal onto your data.
 
 First Fork this repo! (See Menu)
 
-Once forked, you can rename it, e.g. "my-exposome-data"
-
-Edit _config.yml and change this line:
-
-```
-baseurl: "/mybiocaddie"
-```
-
-to:
-
-```
-baseurl: "/my-exposome-data"
-```
-
-It *must* match the repo name.
-
-You can also customize other parts - e.g. categories used.
+You can optioally customize the _config.yml
 
 Clear out the fake descriptors:
 
@@ -66,4 +50,6 @@ git push origin gh-pages
 
 Then go to the URL:
 
-http://yourusername.github.io/my-exposome-data
+http://yourusername.github.io/mybiocaddie/
+
+TODO: instructions for testing using jekyll
