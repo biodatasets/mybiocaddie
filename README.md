@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/biodatabases/mybiocaddie.svg?branch=master)](https://travis-ci.org/biodatabases/mybiocaddie)
+[![Build Status](https://travis-ci.org/biodatabases/mybiocaddie.svg?branch=gh-pages)](https://travis-ci.org/biodatabases/mybiocaddie)
 
 # My BioCaddie
 
@@ -29,3 +29,7 @@ git fetch upstream && git merge upstream/gh-pages
 ```
 
 It is probably best if you do NOT try anything in the reverse direction. If you want to see changes file a ticket directly on biodatasets/mybiocaddie
+
+# Indexing
+
+IndexMeOnBioCaddie

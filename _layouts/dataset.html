@@ -87,6 +87,12 @@ layout: default
                     {% for pageurl in page.page %}
                     <li>Page: <a href="{{ pageurl }}"</a>{{ pageurl }}</li>
                     {% endfor %}
+                    {% for accessURL in page.accessURL %}
+                    <li>Access: <a href="{{ accessURL }}"</a>{{ accessURL }}</li>
+                    {% endfor %}
+                    {% for browseURL in page.browseURL %}
+                    <li>Browse: <a href="{{ browseURL }}"</a>{{ browseURL }}</li>
+                    {% endfor %}
                   </ul>
                     <li><a href="#comments">Comments</a></li>
                 </ul>
