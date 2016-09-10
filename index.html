@@ -9,7 +9,6 @@ layout: default
         This my collection of annotated metadata
       </p>
         <hr>
-        {% assign newcars = site.metadata | where: "category", "new" %}
         
         <ul>
             {% for post in site.metadata %}
@@ -72,6 +71,18 @@ layout: default
     <!-- <button class="anchor"><i class="fa fa-anchor"></i></button> -->
     <div class="right">
         <div class="wrap">
+            <div class="side">
+                <ul class="content-ul" recent>
+                    {% for github in site.github  %}
+                    <div>
+                      <i class="fa fa-th-list" aria-hidden="true"></i>
+                      Source
+                    </div>
+                    <li><a href="https://github.com/{{ github }}">GitHub Repo</a></li>
+                    <li><a href="https://github.com/{{ github }}/tree/gh-pages/_metadata">MetaData</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
             <div class="side">
                 <div>
                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
