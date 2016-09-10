@@ -73,14 +73,12 @@ layout: default
         <div class="wrap">
             <div class="side">
                 <ul class="content-ul" recent>
-                    {% for github in site.github  %}
                     <div>
                       <i class="fa fa-th-list" aria-hidden="true"></i>
                       Source
                     </div>
-                    <li><a href="https://github.com/{{ github }}">GitHub Repo</a></li>
-                    <li><a href="https://github.com/{{ github }}/tree/gh-pages/_metadata">MetaData</a></li>
-                    {% endfor %}
+                    <li><a href="https://github.com/{{ repo }}">GitHub Repo</a></li>
+                    <li><a href="https://github.com/{{ repo }}/tree/gh-pages/_metadata">MetaData</a></li>
                 </ul>
             </div>
             <div class="side">

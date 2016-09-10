@@ -10,7 +10,7 @@ title: MyBioCaddie
 brief-intro: My Data
 baseurl: "/mybiocaddie" # the subpath of your site, e.g. /blog
 url: "http://cmungall.github.io/mybiocaddie" # the base hostname & protocol for your site
-github: biodatasets/mybiocaddie  # modify this
+repo: biodatasets/mybiocaddie  # modify this
 
 permalink: /:year/:month/:day/:title/
 
