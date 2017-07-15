@@ -73,7 +73,7 @@ See [this example](https://kshefchek.github.io/mybiocaddie/metadata/exac-lof/)
 
 All mybiocaddie data is periodically harvested and aggregated here:
 
-https://biodatasets.github.io/mybiocaddie-aggregator/
+[https://biodatasets.github.io/mybiocaddie-aggregator/](https://biodatasets.github.io/mybiocaddie-aggregator/)
 
 ## Python Client
 
